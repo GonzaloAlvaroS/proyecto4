@@ -1,0 +1,20 @@
+.explicacion{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+.explicacion h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "DM Serif Text", serif;
+}
+.explicacion p{
+    max-width: 700px;
+    margin-left: 320px;
+}
+.explicacion img{
+    width: 350px;
+    height: 350px;
+}

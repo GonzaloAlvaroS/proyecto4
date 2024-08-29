@@ -1,0 +1,20 @@
+.introduccion{
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+}
+.introduccion h1{
+    margin-bottom: 30px;
+    font-family: "DM Serif Text", serif;
+    font-size: 40px;
+}
+.introduccion p{
+    max-width: 700px;
+    margin-left: 320px;
+}
+.introduccion img{
+    width: 350px;
+    height: 350px;
+}
