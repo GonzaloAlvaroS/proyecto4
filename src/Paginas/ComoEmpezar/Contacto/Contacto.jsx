@@ -11,7 +11,7 @@ const Contacto = () => {
 
     const onSubmit = async (event) => {
       event.preventDefault();
-      setResult("Sending....");
+      setResult("Enviando....");
       const formData = new FormData(event.target);
   
       formData.append("access_key", "afb6c939-ba2d-4b30-8824-20ecf958a881");
@@ -24,7 +24,7 @@ const Contacto = () => {
       const data = await response.json();
   
       if (data.success) {
-        setResult("Form Submitted Successfully");
+        setResult("¡Email enviado correctamente!");
         event.target.reset();
         event.target.reset();
       } else {
