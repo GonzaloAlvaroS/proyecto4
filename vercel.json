@@ -1,5 +1,9 @@
 {
-    "rewrites":  [
-      {"source": "/(.*)", "destination": "/"}
-    ]
-  }
+  "routes": [
+    { "src": "/", "dest": "/" },
+    { "src": "quienes-somos", "dest": "/" },
+    { "src": "como-funciona", "dest": "/" },
+    { "src": "como-empezar", "dest": "/" },
+    { "src": "preguntas-frecuentes", "dest": "/" }
+  ]
+}
