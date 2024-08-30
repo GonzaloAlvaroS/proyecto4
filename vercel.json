@@ -1,9 +1,9 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/" },
-    { "src": "/quienes-somos", "dest": "/" },
-    { "src": "/como-funciona", "dest": "/" },
-    { "src": "/como-empezar", "dest": "/" },
-    { "src": "/preguntas-frecuentes", "dest": "/" }
+  "rewrites":  [
+    {"source": "/", "destination": "/"},
+    {"source": "/quienes-somos", "destination": "/"},
+    {"source": "/como-funciona", "destination": "/"},
+    {"source": "/como-empezar", "destination": "/"},
+    {"source": "/preguntas-frecuentes", "destination": "/"}
   ]
 }
