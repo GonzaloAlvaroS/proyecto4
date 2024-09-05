@@ -6,6 +6,15 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    transition: transform 1.5s ease-out, opacity 1.5s ease-out;
+}
+.servicio1{
+    transform: translatey(-100%); 
+     opacity: 0;
+ }
+.servicio1.visible{
+    transform: translatey(0); 
+    opacity: 1;
 }
 .servicio1-left{
     flex-basis: 50%;
