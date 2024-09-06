@@ -1,9 +1,8 @@
 {
-  "rewrites":  [
-    {"source": "/", "destination": "/"},
-    {"source": "/quienes-somos", "destination": "/"},
-    {"source": "/como-funciona", "destination": "/"},
-    {"source": "/como-empezar", "destination": "/"},
-    {"source": "/preguntas-frecuentes", "destination": "/"}
+  "rewrites": [
+    {
+      "source": "/(.*)",  
+      "destination": "/"  
+    }
   ]
 }
