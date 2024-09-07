@@ -32,3 +32,32 @@
     margin-top: 10px;
 }
 
+/* ----------------------------------------------------------------- */
+
+.titulometodouno{
+    text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #d39000 0%,
+    #d8b726 29%,
+    #fae84b 67%,
+    #f37610 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+

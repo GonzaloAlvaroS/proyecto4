@@ -7,7 +7,7 @@ const FAQ = () => {
 return (
     <div className='faq'>
       <div className='faqtitulo'>  
-        <h1>〈 PREGUNTAS FRECUENTES 〉</h1>
+        <h1></h1>
       </div>
       <div className='faqinfo'>
         <div className='lineafaq1'></div>

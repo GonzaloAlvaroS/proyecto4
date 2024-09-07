@@ -10,7 +10,7 @@
 .metodos2-texto{
     display: block;  
     text-align: center;
-    padding-top: 25px;   
+    padding-top: 25px;
 }
 .metodos2-texto h1{
     font-family: "Inria Serif", serif;
@@ -39,6 +39,10 @@
 .metodos2-bloque button{
     margin-top: 25px;
 }
+.metodos2-bloque img:hover{
+    transform: scale(1.1);
+    transition: 0.5s 
+}
 .metodos2-imagenes2{ 
     display: block;
 }
@@ -47,7 +51,7 @@
     height: 250px;
     border-radius: 30px;
 }
-.imagenX{
+.imagenmetodo2{
     margin-top: 57px;
 }
 
