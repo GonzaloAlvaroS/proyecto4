@@ -13,15 +13,9 @@
 .infoempresa-right{
     order: 1;
     margin-right: 35px;
-    transition: transform 2s ease-out, opacity 2s ease-out;
-    transform: translateX(-100%); 
-    opacity: 0;
 }
 .infoempresa-left{
     margin-left: -73px;
-    transition: transform 2s ease-out, opacity 2s ease-out;
-    transform: translateX(100%); 
-    opacity: 0;
 }
 .imagen-infoempresa{
     width: 500px;
@@ -46,10 +40,6 @@
     margin-bottom: 15px;
     text-align: justify;
     width: 550px;
-}
-.infoempresa-left.visible, .infoempresa-right.visible{
-    transform: translateX(0); 
-    opacity: 1;
 }
 
 /* ----------------------------------------------------------------- */
