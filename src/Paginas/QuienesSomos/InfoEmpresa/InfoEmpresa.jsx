@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import "./InfoEmpresa.css"
 import empresaanimada from "../../../assets/empresaanimada.png"
 
